@@ -30,7 +30,6 @@ import { part2 as day13part2 } from "../days/13/part2.js";
 import { part1 as day14part1 } from "../days/14/part1.js";
 import { part2 as day14part2 } from "../days/14/part2.js";
 import { part1 as day15part1 } from "../days/15/part1.js";
-// import { part2 as day15part2 } from "../days/15/part2.js";
 
 let totalExecutionTime = 0
 console.log(chalk.bold(DAYS[1]))
@@ -91,7 +90,6 @@ totalExecutionTime += await printAnswer(day14part2, "./src/days/14/input.txt", 1
 
 console.log(chalk.bold(DAYS[15]))
 totalExecutionTime += await printAnswer(day15part1, "./src/days/15/input.txt", 15, 1)
-// totalExecutionTime += await printAnswer(day15part2, "./src/days/15/input.txt", 15, 2)
 
 
 console.log(chalk.bold("----------------"))
